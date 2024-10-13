@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Application Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<form>
+<caption><h2>Application form</h2></caption>
+
+<div id="group">
+<div>
+<label for="name">Full name</label>
+<div>
+<input type="text" id="name" placeholder="Enter full Name" class="box" required>
+</div>
+</div>
+
+<div>
+<label for="dob">Birth date</label>
+<div>
+<input type="date" id="dob" class="box" required>
+</div>
+</div>
+</div>
+
+<div id="group">
+<div class="sub-container" id="sub-cotainer">
+<label for="sub-container">Subjects</label>
+<br>
+    <div>
+        <input type="checkbox" name="subject" id="Python" value="Python"><label for="Python">Python</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subject" value="OA" id="OA"><label for="OA">OA</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subject" value="Web" id="Web"><label for="Web">Web</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subject" value="Electronics" id="Electronics"><label for="Electronics">Electronics</label>
+    </div>
+    <div>
+        <input type="checkbox" name="subject" value="CPP" id="CPP"><label for="CPP">CPP</label>
+    </div>
+<div>
+        <input type="checkbox" name="subject" value="English" id="English"><label for="English">English</label>
+    </div>
+</div>
+
+<div class="gen">
+<label for="go">Gender</label>
+<div class="go" id="go">
+<label><input type="radio"  name="gen" id="gen" value="Male">Male</label>
+<label>
+<input type="radio" name="gen" id="gen" value="Female">Female</label>
+<label>
+<input type="radio" name="gen" id="gen" value="Not to say">Not to say</label>
+</div>
+</div>
+
+</div>
+
+<div id="group">
+<div>
+<label for="email">Email</label>
+<div>
+<input type="email" placeholder="Enter email" required id="email" class="box">
+</div>
+</div>
+
+<div>
+<label for="pass">Password</label>
+<div>
+<input type="password" placeholder="Enter password" required id="pass" class="box">
+</div>
+</div>
+</div>
+
+<div id="group">
+<div>
+ <label for="rnum">Roll No</label>
+ <div>
+<input type="number" placeholder="Enter roll number" required id="rnum"class="box">
+</div>
+</div>
+
+<div>
+<label for="pnum">Phone number</label>
+<div>
+<input type="tel" placeholder="Enter phone number" id="pnum" class="box" required>
+</div>
+</div>
+</div>
+
+<div id="group">
+<div>
+<label for="add">Address</label>
+<div>
+<input type="text" placeholder="Enter address" required id="add"class="box">
+</div>
+</div>
+<div>
+<label for="state">State</label>
+<div>
+<input type="text" placeholder="Enter State" required id="State"class="box"required>
+</div>
+</div>
+</div>
+
+
+<div>
+<button id="submit" value="submit">Submit</button>
+</div>
+
+</form>
+</body>
+</html>
