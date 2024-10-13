@@ -25,6 +25,9 @@ form{
     width: 80%;
     
 }
+.ast{
+    color:red;
+}
 
 form input{
     margin-top: 5px;
@@ -105,6 +108,9 @@ form{
 form input{
     margin-top: 5px;
     margin-bottom: 10px;
+}
+.ast{
+    color:red;
 }
 
 body{
